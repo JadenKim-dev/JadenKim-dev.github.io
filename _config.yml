@@ -20,10 +20,10 @@ title                    : "Daily Coding : 매일 쓰는 코딩 노트"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jaden Kim"
-description              : "공부한 것들을 기록합니다"
+# description              : "공부한 것들을 기록합니다"
 url                      : "https://jadenkim-dev.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "JadenKim-dev/JadenKim-dev.github.io"  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -93,15 +93,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "JJaden"
+  name             : ":runner: JJaden"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "공부한 것들을 기록합니다"
   location         : #"Somewhere"
-  email            :
+  email            : "jaden.kim5179@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "jaden.kim5179@gmail.com"
+      # url: "mailto:jaden.kim5179@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -219,6 +219,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jemoji
 
 # mimic GitHub Pages with --safe
 whitelist:
